@@ -1,0 +1,19 @@
+STORAGE: NONE
+CONDITION: NET8.0
+RESTRICTION: == net8.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    System.Interactive.Async (7.0)
+      System.Linq.AsyncEnumerable (>= 10.0)
+    System.Linq.Async (7.0)
+      System.Interactive.Async (>= 7.0)
+      System.Linq.AsyncEnumerable (>= 10.0)
+    System.Linq.AsyncEnumerable (10.0.2)
+
+GROUP NET6
+STORAGE: NONE
+CONDITION: NET6.0
+RESTRICTION: == net6.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    System.Linq.Async (6.0.3)

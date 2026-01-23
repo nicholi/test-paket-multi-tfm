@@ -1,0 +1,6 @@
+group Main
+System.Linq.Async
+
+
+group NET6
+System.Linq.Async

@@ -1,0 +1,18 @@
+group Main
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net8.0
+condition: net8.0
+
+nuget System.Linq.Async ~> 7
+
+
+group NET6
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net6.0
+condition: net6.0
+
+nuget System.Linq.Async ~> 6

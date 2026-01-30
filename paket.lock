@@ -1,8 +1,11 @@
 STORAGE: NONE
-CONDITION: NET8.0
 RESTRICTION: == net8.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    SuperLinq (6.4.1)
+    SuperLinq.Async (6.4.1)
+      SuperLinq (>= 6.4.1)
+      System.Linq.Async (>= 6.0.3)
     System.Interactive.Async (7.0)
       System.Linq.AsyncEnumerable (>= 10.0)
     System.Linq.Async (7.0)
@@ -12,8 +15,11 @@ NUGET
 
 GROUP NET6
 STORAGE: NONE
-CONDITION: NET6.0
 RESTRICTION: == net6.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    SuperLinq (6.4.1)
+    SuperLinq.Async (6.0)
+      SuperLinq (>= 6.0)
+      System.Linq.Async (>= 6.0.1)
     System.Linq.Async (6.0.3)

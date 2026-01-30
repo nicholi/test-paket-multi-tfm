@@ -1,6 +1,8 @@
 group Main
 System.Linq.Async
+SuperLinq.Async
 
 
 group NET6
 System.Linq.Async
+SuperLinq.Async

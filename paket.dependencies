@@ -3,7 +3,7 @@ source https://api.nuget.org/v3/index.json
 
 storage: none
 framework: net8.0
-condition: true
+condition: testprop
 
 nuget StackExchange.Redis
 
@@ -13,7 +13,7 @@ source https://api.nuget.org/v3/index.json
 
 storage: none
 framework: net6.0
-condition: true
+condition: testprop
 
 # not even changing anything really
 nuget StackExchange.Redis

@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <TestProp>true</TestProp>
+  </PropertyGroup>
+</Project>

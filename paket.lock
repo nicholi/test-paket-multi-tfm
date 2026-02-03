@@ -1,5 +1,5 @@
 STORAGE: NONE
-CONDITION: TRUE
+CONDITION: TESTPROP
 RESTRICTION: == net8.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
@@ -19,7 +19,7 @@ NUGET
 
 GROUP NET6
 STORAGE: NONE
-CONDITION: TRUE
+CONDITION: TESTPROP
 RESTRICTION: == net6.0
 NUGET
   remote: https://api.nuget.org/v3/index.json

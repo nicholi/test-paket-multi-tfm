@@ -1,5 +1,5 @@
 STORAGE: NONE
-CONDITION: NET8.0
+CONDITION: TRUE
 RESTRICTION: == net8.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
@@ -12,7 +12,7 @@ NUGET
 
 GROUP NET6
 STORAGE: NONE
-CONDITION: NET6.0
+CONDITION: TRUE
 RESTRICTION: == net6.0
 NUGET
   remote: https://api.nuget.org/v3/index.json

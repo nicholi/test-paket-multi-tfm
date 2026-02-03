@@ -5,7 +5,7 @@ storage: none
 framework: net8.0
 condition: true
 
-nuget System.Linq.Async ~> 7
+nuget StackExchange.Redis
 
 
 group NET6
@@ -15,4 +15,5 @@ storage: none
 framework: net6.0
 condition: true
 
-nuget System.Linq.Async ~> 6
+# not even changing anything really
+nuget StackExchange.Redis

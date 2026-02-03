@@ -1,6 +1,6 @@
 group Main
-System.Linq.Async
+StackExchange.Redis
 
 
 group NET6
-System.Linq.Async
+StackExchange.Redis
